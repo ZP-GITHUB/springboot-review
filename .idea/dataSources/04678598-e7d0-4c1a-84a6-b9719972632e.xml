@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="springboot_editor@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="springboot_editor">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="admin_prod"/>
+    <schema id="4" parent="1" name="bilibili"/>
+    <schema id="5" parent="1" name="biubiu"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="my_blog_db"/>
+    <schema id="8" parent="1" name="myblog"/>
+    <schema id="9" parent="1" name="mydb"/>
+    <schema id="10" parent="1" name="myshop"/>
+    <schema id="11" parent="1" name="mysql"/>
+    <schema id="12" parent="1" name="oauth2"/>
+    <schema id="13" parent="1" name="oauth2_resource"/>
+    <schema id="14" parent="1" name="performance_schema"/>
+    <schema id="15" parent="1" name="security_authority"/>
+    <schema id="16" parent="1" name="seedling_dev"/>
+    <schema id="17" parent="1" name="sys"/>
+    <schema id="18" parent="1" name="zplive"/>
+    <table id="19" parent="2" name="article"/>
+    <column id="20" parent="19" name="id">
+      <Position>1</Position>
+      <Comment>int文章的唯一ID</Comment>
+      <DataType>int(10)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="19" name="author">
+      <Position>2</Position>
+      <Comment>作者</Comment>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="22" parent="19" name="title">
+      <Position>3</Position>
+      <Comment>标题</Comment>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="23" parent="19" name="content">
+      <Position>4</Position>
+      <Comment>文章的内容</Comment>
+      <DataType>longtext|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="24" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

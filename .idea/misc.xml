@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-helloword/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-yaml/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-starter-autoconfigure/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-asyncandscheduled/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-editor/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-springsecurity/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "pengshuai.hello",
+      "type": "com.zp.HelloProperties",
+      "sourceType": "com.zp.HelloProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "pengshuai.hello.prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.zp.HelloProperties"
+    },
+    {
+      "name": "pengshuai.hello.suffix",
+      "type": "java.lang.String",
+      "sourceType": "com.zp.HelloProperties"
+    }
+  ],
+  "hints": []
+}

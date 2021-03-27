@@ -1,0 +1,87 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.zp.yaml.pojo.Person",
+      "sourceType": "com.zp.yaml.pojo.Person"
+    },
+    {
+      "name": "personran",
+      "type": "com.zp.yaml.pojo.Person3",
+      "sourceType": "com.zp.yaml.pojo.Person3"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zp.yaml.pojo.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.zp.yaml.pojo.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.zp.yaml.pojo.Dog",
+      "sourceType": "com.zp.yaml.pojo.Person"
+    },
+    {
+      "name": "person.happy",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zp.yaml.pojo.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.zp.yaml.pojo.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.zp.yaml.pojo.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.zp.yaml.pojo.Person"
+    },
+    {
+      "name": "personran.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.zp.yaml.pojo.Person3"
+    },
+    {
+      "name": "personran.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.zp.yaml.pojo.Person3"
+    },
+    {
+      "name": "personran.dog",
+      "type": "com.zp.yaml.pojo.Dog",
+      "sourceType": "com.zp.yaml.pojo.Person3"
+    },
+    {
+      "name": "personran.happy",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.zp.yaml.pojo.Person3"
+    },
+    {
+      "name": "personran.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.zp.yaml.pojo.Person3"
+    },
+    {
+      "name": "personran.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.zp.yaml.pojo.Person3"
+    },
+    {
+      "name": "personran.name",
+      "type": "java.lang.String",
+      "sourceType": "com.zp.yaml.pojo.Person3"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-asyncandscheduled/springboot-asyncandscheduled.iml" filepath="$PROJECT_DIR$/springboot-asyncandscheduled/springboot-asyncandscheduled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-editor/springboot-editor.iml" filepath="$PROJECT_DIR$/springboot-editor/springboot-editor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-helloword/springboot-helloword.iml" filepath="$PROJECT_DIR$/springboot-helloword/springboot-helloword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-jdbc/springboot-jdbc.iml" filepath="$PROJECT_DIR$/springboot-jdbc/springboot-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-review.iml" filepath="$PROJECT_DIR$/.idea/springboot-review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-springsecurity/springboot-springsecurity.iml" filepath="$PROJECT_DIR$/springboot-springsecurity/springboot-springsecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-starter/springboot-starter.iml" filepath="$PROJECT_DIR$/springboot-starter/springboot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-starter-autoconfigure/springboot-starter-autoconfigure.iml" filepath="$PROJECT_DIR$/springboot-starter-autoconfigure/springboot-starter-autoconfigure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" filepath="$PROJECT_DIR$/springboot-swagger/springboot-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-yaml/springboot-yaml.iml" filepath="$PROJECT_DIR$/springboot-yaml/springboot-yaml.iml" />
+    </modules>
+  </component>
+</project>

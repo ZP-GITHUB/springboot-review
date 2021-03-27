@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/springboot-asyncandscheduled" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-editor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-helloword" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-jdbc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-springsecurity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-starter-autoconfigure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-swagger" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-yaml" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
