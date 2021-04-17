@@ -1,0 +1,31 @@
+package com.zp.springbootbatchstart.batch.decider;
+
+import org.springframework.batch.core.JobExecution;
+import org.springframework.batch.core.StepExecution;
+import org.springframework.batch.core.job.flow.FlowExecutionStatus;
+import org.springframework.batch.core.job.flow.JobExecutionDecider;
+import org.springframework.stereotype.Component;
+
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+
+/**
+ * @author ZP
+ * @date 2021/4/17.
+ * 判断今天是否是周末，如果是，返回FlowExecutionStatus("weekend")状态，
+ * 否则返回FlowExecutionStatus("workingDay")状态。
+ */
+@Component
+public class MyDecider implements JobExecutionDecider {
+    @Override
+    public FlowExecutionStatus decide(JobExecution jobExecution, StepExecution stepExecution) {
+        LocalDate now = LocalDate.now();
+        DayOfWeek dayOfWeek = now.getDayOfWeek();
+
+        if (dayOfWeek == DayOfWeek.SATURDAY || dayOfWeek == DayOfWeek.SUNDAY) {
+            return new FlowExecutionStatus("weekend");
+        } else {
+            return new FlowExecutionStatus("workingDay");
+        }
+    }
+}
